@@ -14,15 +14,20 @@ public class InsertNodeAtTail {
   }
 */
 
-Node Insert(Node head, Node data){
+class Node {
+    int data;
+    Node next;
+}
+
+Node Insert(Node head, int data){
     if(head == null){
-        head = new head();
+        head = new Node();
     }
     else {
         Node node = head;
         while(node.next != null)
             node = node.next;
-        node.next = new node();
+        node.next = new Node();
         node.next.data = data;
     }
     return head;
