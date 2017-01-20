@@ -9,7 +9,6 @@ public class CompareTwoLinkedLists {
         // You only need to complete this method
         Node list1 = headA;
         Node list2 = headB;
-        int iterations = 0;
 
         while (list1 != null && list2 != null) {
             if (list1.data == list2.data) {
