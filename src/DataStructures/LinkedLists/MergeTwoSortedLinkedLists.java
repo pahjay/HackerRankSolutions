@@ -21,28 +21,3 @@ public class MergeTwoSortedLinkedLists {
 
     }
 }
-
-// did not produce correct results, but compiled
-
-//        while(headA != null && headB != null){
-//
-//                if(headA.data >= headB.data){
-//                Node temp = node;
-//                node = new Node();
-//                node.next = new Node();
-//                node.data = headB.data;
-//                node.next.data = headA.data;
-//                node.next.next = temp;
-//                }
-//                if(headA.data <= headB.data){
-//                Node temp = node;
-//                node = new Node();
-//                node.next = new Node();
-//                node.data = headA.data;
-//                node.next.data = headB.data;
-//                node.next.next = temp;
-//                }
-//
-//                headA = headA.next;
-//                headB = headB.next;
-//                }
