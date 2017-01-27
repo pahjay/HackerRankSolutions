@@ -6,4 +6,5 @@ package DataStructures.LinkedLists;
 class Node {
     int data;
     Node next;
+    Node prev;
 }
